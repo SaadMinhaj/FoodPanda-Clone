@@ -109,22 +109,18 @@
   .auth-container {
     width: 10%;
   }
-html{
-    width: 100%;
-  }
 }
 /* Navbar Ended  */
 
 /* Section 1 Started  */
 .section-one {
-  z-index: -1;
+  /* z-index: 100; */
   padding: 5%;
-  padding-right: 0;
   background-color: #f7f7f7;
   position: relative;
   top: -17px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   cursor: pointer;
 }
@@ -166,10 +162,20 @@ html{
   height: 45px;
   cursor: pointer;
 }
-.hero-img img {
-  width: 100%;
+.section-one img {
+  width: 50%;
 }
 @media only screen and (max-width: 600px) {
+  .section-one {
+    z-index: -1;
+    padding: 5%;
+    padding-right: 0;
+    position: relative;
+    top: -17px;
+    width: 100%;
+    /* justify-content: space-around; */
+    align-items: center;
+  }
   .p-loc p {
     font-size: 1.2em;
     font-weight: bold;
@@ -194,17 +200,14 @@ html{
     height: 45px;
     width: 85vw;
   }
-  .hero-img {
-    width: 0;
-  }
-  .hero-img img {
-    width: 40vw;
+  .section-one img {
+    width: 50vw;
     height: 30vh;
     position: relative;
-    right: 170px;
+    right: 213px;
     bottom: 20px;
     display: block;
-    z-index: -1000;
+    z-index: -1;
   }
 }
 /* Section 1 Ended  */
@@ -291,7 +294,8 @@ html{
   .card {
     padding: 0px 0px;
     width: 100% !important;
-    height: 132px;
+    /* height: 132px; */
+    height: 115px;
   }
   .cards .btn {
     width: 115px;
@@ -380,7 +384,7 @@ html{
     position: relative;
     bottom: 0;
     right: 11px;
-    width: 382px;
+    width: 370px;
     height: 50px;
   }
   .app {
@@ -391,12 +395,20 @@ html{
     left: -38px;
   }
 }
-@media only screen and (max-width: 386px) {
+@media only screen and (max-width: 390px) {
   .app {
     width: 377px;
-    height: 199px;
-    bottom: -4px;
-    left: -30px;
+    height: 267px;
+    bottom: -18px;
+    left: -28px;
+  }
+
+  .download-link {
+    position: relative;
+    bottom: 0;
+    right: 11px;
+    width: 347px;
+    height: 50px;
   }
 }
 /* Section 4 Ended  */
