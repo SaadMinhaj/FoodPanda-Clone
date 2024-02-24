@@ -385,6 +385,14 @@
     left: -38px;
   }
 }
+@media only screen and (max-width: 386px){
+  .app {
+    width: 377px;
+    height: 199px;
+    bottom: -4px;
+    left: -30px;
+  }
+}
 /* Section 4 Ended  */
 
 /* Section 5 Started  */
