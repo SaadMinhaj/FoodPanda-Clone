@@ -114,13 +114,11 @@
 
 /* Section 1 Started  */
 .section-one {
-  /* z-index: 100; */
   padding: 5%;
   background-color: #f7f7f7;
   position: relative;
   top: -17px;
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   cursor: pointer;
 }
@@ -173,7 +171,6 @@
     position: relative;
     top: -17px;
     width: 100%;
-    /* justify-content: space-around; */
     align-items: center;
   }
   .p-loc p {
@@ -349,10 +346,6 @@
   left: 200px;
 }
 @media only screen and (max-width: 600px) {
-  .section-four {
-    margin: 0;
-    padding: 0;
-  }
   .four-text > h1 {
     font-size: 18px;
     font-weight: 700;
@@ -364,7 +357,7 @@
     text-align: center;
   }
   .download {
-    width: 93%;
+    width: 100%;
     height: 54vh;
     padding: 20px;
     margin: -5px;
@@ -384,7 +377,7 @@
     position: relative;
     bottom: 0;
     right: 11px;
-    width: 370px;
+    width: 383px;
     height: 50px;
   }
   .app {
@@ -392,23 +385,34 @@
     height: 320px;
     position: relative;
     bottom: -17px;
-    left: -38px;
+    left: -21px;
   }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 413px) {
+  .download h2 {
+    font-size: 14px;
+    text-align: center;
+  }
+  .download p {
+    font-size: 12px;
+    text-align: center;
+  }
   .app {
-    width: 377px;
-    height: 267px;
-    bottom: -18px;
-    left: -28px;
+    width: 90%;
+    height: 184px;
+    bottom: 10px;
+    left: 18px;
   }
 
   .download-link {
-    position: relative;
-    bottom: 0;
-    right: 11px;
-    width: 347px;
-    height: 50px;
+    bottom: 23px;
+    right: 5px;
+    width: 322px;
+    height: 44px;
+  }
+  .download {
+    height: 34vh;
+    width: 90%;
   }
 }
 /* Section 4 Ended  */
@@ -500,6 +504,11 @@
 /* Section 8 Started  */
 .section-eight {
   padding: 45px;
+}
+@media only screen and (max-width: 413px) {
+  .section-eight img {
+    width: 100%;
+  }
 }
 /* Section 8 Ended  */
 
