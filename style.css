@@ -346,6 +346,9 @@
   left: 200px;
 }
 @media only screen and (max-width: 600px) {
+  .section-four {
+    width: 92%;
+  }
   .four-text > h1 {
     font-size: 18px;
     font-weight: 700;
@@ -360,35 +363,34 @@
     width: 100%;
     height: 54vh;
     padding: 20px;
-    margin: -5px;
+    margin: 0px;
     color: #ffffff;
-    position: relative;
-    right: 121px;
   }
   .qr img {
     display: none;
   }
   .qr {
     flex-direction: column;
-    width: 85vw;
+    width: 100%;
     font-size: 14px;
   }
   .download-link {
-    position: relative;
     bottom: 0;
-    right: 11px;
-    width: 383px;
+    width: 100%;
     height: 50px;
   }
   .app {
-    width: 430px;
+    width: 100%;
     height: 320px;
     position: relative;
     bottom: -17px;
-    left: -21px;
+    left: 0px;
   }
 }
 @media only screen and (max-width: 413px) {
+  .section-four {
+    width: 94%;
+  }
   .download h2 {
     font-size: 14px;
     text-align: center;
@@ -398,21 +400,20 @@
     text-align: center;
   }
   .app {
-    width: 90%;
-    height: 184px;
+    width: 100%;
+    height: 70%;
     bottom: 10px;
-    left: 18px;
+    left: 0px;
   }
 
   .download-link {
-    bottom: 23px;
-    right: 5px;
-    width: 322px;
+    bottom: 20px;
+    width: 100%;
     height: 44px;
   }
   .download {
-    height: 34vh;
-    width: 90%;
+    height: 52vh;
+    width: 94%;
   }
 }
 /* Section 4 Ended  */
@@ -535,9 +536,10 @@
 @media only screen and (max-width: 600px) {
   .section-nine {
     width: 100%;
-    padding-left: 57px;
+    padding-left: 32px;
     font-size: 14px;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     text-align: center;
   }
   .section-nine p {
